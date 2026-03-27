@@ -48,9 +48,30 @@
 <section id="about">
   <h2>Sobre mí</h2>
   <p>
-    Soy estudiante de programación enfocado en desarrollo web y ciberseguridad.
-    También me dedico a la creación de contenido audiovisual, combinando creatividad con tecnología.
+    Soy estudiante de programación de 27 años, residente en Ensenada, enfocado en desarrollo web y ciberseguridad. Actualmente me estoy formando en la UTN, donde complemento mi aprendizaje teórico con el desarrollo de proyectos prácticos orientados a resolver problemas reales.
+
+Además, cuento con experiencia en la creación de contenido audiovisual, lo que me permite combinar creatividad con tecnología y aportar una mirada más integral a cada proyecto. Me interesa seguir creciendo como desarrollador, incorporando buenas prácticas, mejorando mis habilidades técnicas y participando en proyectos que representen nuevos desafíos.
   </p>
+</section>
+
+<section id="educacion">
+  <h2>Formación Académica</h2>
+
+  <div class="education-container">
+
+    <div class="education-card">
+      <h3>Tecnicatura en Programación</h3>
+      <p>UTN - Regional La Plata</p>
+      <span class="edu-status">En curso</span>
+    </div>
+
+    <div class="education-card">
+      <h3>Diplomatura en Ciberseguridad</h3>
+      <p>UTN - Regional La Plata</p>
+      <span class="edu-status">Próximamente</span>
+    </div>
+
+  </div>
 </section>
 
 <!-- SERVICES -->
@@ -132,7 +153,24 @@
 <!-- CONTACTO -->
 <section id="contacto">
   <h2>Contacto</h2>
-  <p>Email: nacho9847@gmail.com</p>
+
+  <form action="https://formsubmit.co/nacho9847@gmail.com" method="POST" class="contact-form">
+
+    <input type="text" name="name" placeholder="Tu nombre" required>
+
+    <input type="email" name="email" placeholder="Tu email" required>
+
+    <input type="text" name="subject" placeholder="Asunto" required>
+
+    <textarea name="message" placeholder="Escribí tu mensaje..." required></textarea>
+
+    <button type="submit" class="btn">Enviar mensaje</button>
+
+    <!-- CONFIG EXTRA -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://nachoechave.github.io/cv-web/">
+
+  </form>
 </section>
 
 </body>
