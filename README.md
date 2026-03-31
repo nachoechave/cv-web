@@ -66,15 +66,6 @@ Podés contactarme a través del formulario en la web o mediante:
 
 ---
 
-## 📈 Próximas mejoras
-
-- Animaciones y microinteracciones
-- Mejora de accesibilidad
-- Optimización responsive avanzada
-- Deploy profesional
-
----
-
 ## 🔗 Demo
 
 👉 https://nachoechave.github.io/cv-web/
