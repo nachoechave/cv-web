@@ -49,17 +49,16 @@ html {
   max-width: 1100px;
 }
 
-.hero-title {
-  font-size: 70px;
-  color: transparent;
-  -webkit-text-stroke: 1px var(--primary);
+.hero-title { 
+  font-size: 4.375rem; /* 70px */
+  color: transparent; 
+  -webkit-text-stroke: 0.0625rem var(--primary-color); /* 1px */
 }
 
-/* PROFILE */
-.hero-image img {
-  width: 280px;
-  border-radius: 20px;
-  border: 3px solid var(--primary);
+.hero-image img { 
+  width: 17.5rem; /* 280px */
+  border-radius: 1.25rem; /* 20px */
+  border: 0.1875rem solid var(--primary-color); /* 3px */
 }
 
 /* BUTTONS */
