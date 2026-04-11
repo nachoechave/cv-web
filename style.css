@@ -74,8 +74,8 @@ html {
   gap: 12px;
 }
 
-.hero-text h2 {
-  margin-bottom: 10px;
+.hero-subtitle {
+  margin-bottom: 0.625rem; /* 10px */
 }
 
 .hero-text p {
