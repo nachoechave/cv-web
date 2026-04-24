@@ -48,7 +48,6 @@ html {
   max-width: 1100px;
 }
 
-<<<<<<< HEAD
 .hero-title {
   font-size: 70px;
   color: transparent;
@@ -60,18 +59,6 @@ html {
   width: 280px;
   border-radius: 20px;
   border: 3px solid var(--primary-color);
-=======
-.hero-title { 
-  font-size: 4.375rem; /* 70px */
-  color: transparent; 
-  -webkit-text-stroke: 0.0625rem var(--primary-color); /* 1px */
-}
-
-.hero-image img { 
-  width: 17.5rem; /* 280px */
-  border-radius: 1.25rem; /* 20px */
-  border: 0.1875rem solid var(--primary-color); /* 3px */
->>>>>>> 1feff14525c515060a3c23150b09b881b1db8b5f
 }
 
 /* BUTTONS */
@@ -261,38 +248,5 @@ section {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-<<<<<<< HEAD
   outline: 1px solid var(--primary-color);
-=======
-  outline: 1px solid var(--primary);
-}
-
-.volver-container {
-  display: flex;
-  justify-content: center;
-  margin: 60px 0;
-}
-
-#btnInicio {
-  padding: 12px 24px;
-  font-size: 14px;
-
-  background-color: #111;
-  color: #fff;
-
-  border: 1px solid #333;
-  border-radius: 10px;
-
-  cursor: pointer;
-
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-
-  transition: all 0.3s ease;
-}
-
-#btnInicio:hover {
-  background-color: #1a1a1a;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
->>>>>>> 1feff14525c515060a3c23150b09b881b1db8b5f
 }
